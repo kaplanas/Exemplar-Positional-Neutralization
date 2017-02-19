@@ -1,8 +1,12 @@
 # Exemplar-Positional-Neutralization
 An agent-based exemplar model of positional neutralization in morphological paradigms
 
+![Sample simulation run](https://github.com/kaplanas/Exemplar-Positional-Neutralization/blob/master/sim_illustration.png)
+
 ## About
-This code runs an agent-based exemplar simulation of words that participate in morphological paradigms.  [This manuscript](https://github.com/kaplanas/Exemplar-Positional-Neutralization/blob/master/exemplar_positional_neutralization.pdf) describes a series of simulations that explore whether an exemplar model can replicate German-style final devoicing.  The code consists of
+This code runs an agent-based exemplar simulation of words that participate in morphological paradigms.  [This manuscript](https://github.com/kaplanas/Exemplar-Positional-Neutralization/blob/master/exemplar_positional_neutralization.pdf) describes a series of simulations that explore whether an exemplar model can replicate German-style final devoicing.  (A related earlier project is reported [here](http://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/3745).)
+
+The code consists of
 
 + Python code that runs the simulation and dumps the results to a JSON file, and  
 + R code that reads the JSON and plots the results.
