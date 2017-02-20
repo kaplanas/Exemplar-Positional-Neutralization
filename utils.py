@@ -6,7 +6,6 @@ from math import floor, copysign, log
 from statistics import mean
 from NaiveBayes import NaiveBayes
 from parameters import *
-from sim_type_parameters import *
 
 def cloud_form(cloud):
     """Return a single surface form that represents the entire cloud."""

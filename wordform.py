@@ -6,7 +6,6 @@ from copy import deepcopy
 from random import uniform, choice
 from numpy.random import choice as wchoice
 from parameters import *
-from sim_type_parameters import *
 
 cases = {'abs': {'name': 'Absolutive',
                  'suffix': ''},

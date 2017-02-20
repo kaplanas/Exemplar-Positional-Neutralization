@@ -6,7 +6,6 @@ from numpy.random import choice as wchoice
 from numpy import arange
 from pyqt_fit import kde
 from parameters import *
-from sim_type_parameters import *
  
 # I really should have made a class for features.  Alas, inertia has won.
 # For each feature, specify:

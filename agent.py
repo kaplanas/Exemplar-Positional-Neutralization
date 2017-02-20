@@ -5,7 +5,6 @@ from random import uniform, choice
 from copy import deepcopy
 from statistics import mean
 from parameters import *
-from sim_type_parameters import *
 
 class Agent:
     """A class for simulated linguistic agents."""
