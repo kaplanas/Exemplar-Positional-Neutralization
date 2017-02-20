@@ -3,6 +3,9 @@ An agent-based exemplar model of positional neutralization in morphological para
 
 ![Sample simulation run](https://github.com/kaplanas/Exemplar-Positional-Neutralization/blob/master/sim_illustration.png)
 
+## Author
+Abby Kaplan ([kaplanas](https://github.com/kaplanas))
+
 ## About
 This code runs an agent-based exemplar simulation of words that participate in morphological paradigms.  [This manuscript](https://github.com/kaplanas/Exemplar-Positional-Neutralization/blob/master/exemplar_positional_neutralization.pdf) describes a series of simulations that explore whether an exemplar model can replicate German-style final devoicing.  (A related earlier project is reported [here](http://journals.linguisticsociety.org/proceedings/index.php/amphonology/article/view/3745).)
 
@@ -24,6 +27,12 @@ A simulation contains two agents and a small lexicon.  For each word in the lexi
   a. Determine the wordform that the wordform most likely came from.  
   b. Store the production in the appropriate cloud, replacing a randomly selected old exemplar.  
 3. Return to step 1 and switch roles.
+
+## Dependencies
++`nltk`
++`numpy`
++`pyqt_fit`
++`NaiveBayes`
 
 ## Usage
 To run the code,
