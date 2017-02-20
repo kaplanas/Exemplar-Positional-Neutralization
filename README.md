@@ -29,10 +29,10 @@ A simulation contains two agents and a small lexicon.  For each word in the lexi
 3. Return to step 1 and switch roles.
 
 ## Dependencies
-+`nltk`
-+`numpy`
-+`pyqt_fit`
-+`NaiveBayes`
++ `nltk`
++ `numpy`
++ `pyqt_fit`
++ `NaiveBayes`
 
 ## Usage
 To run the code,
