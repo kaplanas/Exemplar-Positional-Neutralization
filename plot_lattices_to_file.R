@@ -1,8 +1,0 @@
-trellis.device(device = "pdf", file = paste(path, "_a1.pdf", sep = ""), height = 4.5, width = 6.5, pointsize = 10)
-trellis.par.set(fontsize = list(text = NULL))
-print(plot.vot.trackers(vot.tracker, 1))
-dev.off()
-trellis.device(device = "pdf", file = paste(path, "_a2.pdf", sep = ""), height = 4.5, width = 6.5, pointsize = 10)
-trellis.par.set(fontsize = list(text = NULL))
-print(plot.vot.trackers(vot.tracker, 2))
-dev.off()
