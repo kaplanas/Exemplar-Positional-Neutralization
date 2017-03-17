@@ -45,6 +45,6 @@ To run the code,
 3. (You may also want to edit the `initialize_agent()` function in `simulation.py`, if you want to change the number/shape/composition of the lemmas.)  
 4. Run `simulation.py`.  
 5. Edit `plot_results.R` as follows:  
-  a. Change `in_file_name` to match the name of the JSON file you just created and `path` is the name of the file to which you want to write the graph.    
+  a. Change `in_file_name` to match the name of the JSON file you just created and `path` to the name of the file to which you want to write the graph.    
   b. If you changed the number or shape of the lemmas, change `lemmas` to `1:n`, where `n` is the total number of lemmas; change `current_positions` to the positions in the stem that are consonants (counting from 1).
 6. Run `plot_results.R`.
